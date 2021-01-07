@@ -5,25 +5,25 @@ A Libplanet.IStore implementation using MySQL
 ## Libplanet.MySQLStore
 - MySQL Implementation to store blockchain data from Libplanet engine
 
-* Models
+### [Models](https://github.com/area363/Libplanet.MySQLStore/tree/main/Libplanet.MySQLStore/Models)
 - Data models used to store/update/fetch/delete rows in table
 
-* Sql
+### [Sql](https://github.com/area363/Libplanet.MySQLStore/tree/main/Libplanet.MySQLStore/Sql)
 - Initial setup SQL statement for creating tables in db
 
-* MySQLStore
+### MySQLStore
 - Main implementation of the library
 
-* MySQLKeyValueStore
+### MySQLKeyValueStore
 - Implementation for Key-Value storage
 
-* MySQLStoreBitConverter
+### MySQLStoreBitConverter
 - Bit converter
 
-* MySQLStoreOptions
+### MySQLStoreOptions
 - Options model for building a MySQL connection string
 
-* MySQLUtils
+### MySQLUtils
 - Utils for opening database
 ## Libplanet.MySQLStore.Test
 - Tests for Libplanet.MySQLStore
